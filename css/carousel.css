@@ -1,0 +1,38 @@
+.scoll
+{
+    margin-top: 200px;
+     display: grid;
+    /* grid-auto-columns: 100%; */
+    grid-column-gap: 10px;
+    grid-auto-flow: column;
+    padding: 25px 0;
+    list-style: none;
+    overflow-x: scroll;
+}
+.text
+{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.scoll .card
+{
+    border: 1px solid white;
+}
+.scoll .card:hover
+{
+    border: 1px solid black;
+}
+.card .price
+{
+    position: absolute;
+    top: 370px;
+    padding: 5px 10px;
+    background-color: white;
+    left: 10px;
+    display: none;
+}
+
+.card:hover .price
+{
+    display: block;
+}

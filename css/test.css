@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .bg-nav
+{
+    background-color: rgb(157, 85, 85);
+    
+}
+.bg-nav img
+{
+    object-fit: cover;
+    margin-left: 100px;
+} */
+
+nav
+{
+    background-color: white;
+}
+
+nav .collapse .navbar-nav li
+{
+    padding: 0 20px;
+    color: white;
+}
+nav .collapse .navbar-nav li a
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.collapse .dropdown
+{
+    font-weight: bold;
+    
+}
+
+nav .navbar-collapse
+{
+    margin-right: 10%;
+}
+
+
+.container-fluid .navbar-brand
+{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.navbar-nav a
+    {
+        color: white;
+        text-align: center;
+    }
+.dropdown-menu
+    {
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+
+
+
+    .scol
+        {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            width: 67.3%;
+            /* background-color: aqua; */
+            
+        }
+        .scol .card{
+            
+            margin: auto;
+        }
+
+
+        .index-cart
+        {
+            color: white;
+            position: absolute;
+            left: 87.2%;
+            top: 14px;
+            padding: 3px 7px;
+            background-color: red;
+            border-radius: 100%;
+            display: none;
+            font-size: 10px;
+            
+        }
+
+
+
+@media ( max-width: 1500px )
+{
+.scol
+{
+    width: 100%;
+     display: grid;
+    /* grid-auto-columns: 100%; */
+    grid-column-gap: 10px;
+    grid-auto-flow: column;
+    padding: 25px 0;
+    list-style: none;
+    overflow-x: scroll;
+
+}
+
+}

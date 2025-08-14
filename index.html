@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <!-- <link rel="stylesheet" href="css/carousel.css"> -->
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/home.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"> -->
+    
+
+
+</head>
+<body>
+
+  <script>
+    AOS.init();
+  </script>
+
+    <!-- header -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span class="text-warning">Shoe</span>S</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button"data-bs-toggle="dropdown" aria-expanded="false" href="#">Products</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="nike.html">Nike</a></li>
+                    <li><a class="dropdown-item" href="adidas.html">Adidas</a></li>
+                    <li><a class="dropdown-item" href="puma.html">Puma</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Slider cover -->
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slide/nike px1.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  " data-aos="zoom-in-down">
+        <h6 style="font-size: 50px; font-weight: 1000;" class="text-warning" >NIKE OF PRODUCTS</h6>
+        <p >Some representative placeholder content for the first slide.</p>
+        <a href="nike.html"><button class="custom-btn btn-5"><span>Shop Now <i class="bi bi-arrow-right"></i></span></button></a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide/adidas-pexel1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption" data-aos="zoom-in-up">
+        <h6 style="font-size: 50px; font-weight: 1000;" class="text-warning">ADIDAS OF PRODUCTS</h6>
+        <p>Some representative placeholder content for the first slide.</p>
+        <a href="adidas.html"><button class="custom-btn btn-5"><span>Shop Now <i class="bi bi-arrow-right"></i></span></button></a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide/pexels-grégory-costa-5733516.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  " data-aos="zoom-in-up">
+        <h6 style="font-size: 50px; font-weight: 1000;" class="text-warning">PUMA OF PRODUCT</h6>
+        <p>Some representative placeholder content for the first slide.</p>
+        <a href="puma.html"><button class="custom-btn btn-5"><span>Shop Now <i class="bi bi-arrow-right"></i></span></button></a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+      <div class="mt-5 text-center " data-aos="zoom-in-up">
+        <h2 style="font-size: 50px; font-weight: bold ; padding: 50px 0;">We provede best Products</h2>
+        <p> Discover leggings, matching sets, bras, sneakers, and comfy basics <br>
+          designed for your every mood and movement</p>
+      </div>
+
+      
+      <section class="container  mt-5">
+            
+      <!-- Gallery 3 -->
+      <div class="py-5" >
+          <div class="row">
+              <!-- Gallery 3 item -->
+              <div class="col-lg-6 mb-3 mb-lg-0" data-aos="zoom-in-down">
+                  <div class="hover hover-3 text-white "><img src="img/content/adidas/adidas px2.jpg" alt="">
+                      <div class="hover-overlay"></div>
+                      <div class="hover-3-content px-5 py-4" >
+                          <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Adidas </span>Products</h3>
+                          <p class="hover-3-description small text-uppercase mb-0"><a href="adidas.html"><button class="btn btn-outline-warning">Shop Now <i class="bi bi-arrow-right"></i></button></a></p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Gallery 3 Item    -->
+              <div class="col-lg-6" data-aos="zoom-in-left">
+                  <div class="hover hover-3 text-white "><img src="img/content/nike/nike2.jpg" alt="">
+                      <div class="hover-overlay"></div>
+                      <div class="hover-3-content px-5 py-4">
+                          <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Nike </span>Products</h3>
+                          <p class="hover-3-description small text-uppercase mb-0"><a href="nike.html"><button class="btn btn-outline-warning">Shop Now <i class="bi bi-arrow-right"></i></button></a></p>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- Gallery 4 item -->
+              <div class="col-lg-6 mt-4 m-auto" data-aos="zoom-out-up">
+                <div class="hover hover-3 text-white "><img src="img/content/puma/puma1.jpg" alt="">
+                    <div class="hover-overlay"></div>
+                    <div class="hover-3-content px-5 py-4">
+                        <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Puma </span>Products</h3>
+                        <p class="hover-3-description small text-uppercase mb-0"><a href="puma.html"><button class="btn btn-outline-warning">Shop Now <i class="bi bi-arrow-right"></i></button></a></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      
+      
+      </section>
+
+
+
+
+<!-- Scoccer nike -->
+
+
+<section id="services" class="services section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header  pd-5 mt-5">
+          <h2 style="font-weight: bold; font-size: 40px;" data-aos="zoom-in-up">Nike Products</h2>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate veritatis iste quod itaque modi asperiores quis quasi voluptatem ipsum suscipit tenetur magni quia mollitia delectus amet, perspiciatis dolor unde ipsam?</p> -->
+        </div>
+       </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-2 col-ms-2"  data-aos="zoom-in-up">
+        <div class="card card-products">
+          <a href="Product/Nike/Soccer/nike-soccer-2.html"><img src="img/socker/nike/nike2.png" class="img-fluid" alt=""></a>
+          <div class="card-body">
+            <div class="card-title">
+              <h6 >Nike Pegasus 38</h6>
+              <br>
+              <p>Shoes</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-lg-2 col-ms-4"  data-aos="zoom-in-up">
+          <div class="card card-products">
+            <a href="Product/Nike/Soccer/nike-soccer-1.html"><img src="img/socker/nike/nike1.jpg" class="img-fluid" alt=""></a>
+            <div class="card-body">
+              <div class="card-title">
+                <h6 >Nike Pegasus 40 (USWNT)</h6>
+                <br>
+                <p>Shoes</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-2 col-ms-4">
+            <div class="card card-products"  data-aos="zoom-in-up">
+              <a href="Product/Nike/Football/nike-sport-2.html"><img src="img/sport/nike/nike2.png" class="img-fluid" alt=""></a>
+              <div class="card-body">
+                <div class="card-title">
+                  <h6 >Nike Vapor Edge Pro 360 2</h6>
+                  <br>
+                  <p>Shoes</p>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-lg-2 col-ms-4">
+              <div class="card card-products"  data-aos="zoom-in-up">
+                <a href="Product/Nike/Football/nike-sport-12.html"><img src="img/sport/nike/nike12.png" class="img-fluid" alt=""></a>
+                <div class="card-body">
+                  <div class="card-title">
+                    <h6 >Nike Mercurial Vapor 15 Elite</h6>
+                    <br>
+                    <p>Shoes</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="col-lg-2 col-ms-4">
+                <div class="card card-products"  data-aos="zoom-in-up">
+                  <a href=""><img src="img/slider/nike/nike-slider3(1).png" class="img-fluid" alt=""></a>
+                  <div class="card-body">
+                    <div class="card-title">
+                      <h6 >ADIZERO SPARK CLEATS</h6>
+                      <br>
+                      <p>Shoes</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-ms-4">
+                  <div class="card card-products"  data-aos="zoom-in-up">
+                    <a href=""><img src="img/slider/nike/nike-slider1(1).png" class="img-fluid" alt=""></a>
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h6 >Nike Air Max 1</h6>
+                        <br>
+                        <p>Shoes</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+      
+      </div>
+    </div>
+     </section>   
+      
+
+<!-- adidas product -->
+
+     <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header  pd-5 mt-5">
+              <h2 style="font-weight: bold; font-size: 40px;" data-aos="zoom-in-up">Adidas Products</h2>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate veritatis iste quod itaque modi asperiores quis quasi voluptatem ipsum suscipit tenetur magni quia mollitia delectus amet, perspiciatis dolor unde ipsam?</p> -->
+            </div>
+           </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-2">
+            <div class="card card-products"  data-aos="zoom-in-up">
+              <a href="Product/Adidas/Soccer/a"><img src="img/socker/adidas/adidas 14.png" class="img-fluid" alt=""></a>
+              <div class="card-body">
+                <div class="card-title">
+                  <h6 >Lorem ipsum dolor sit amet.</h6>
+                  <br>
+                  <p>Shoes</p>
+                </div>
+              </div>
+            </div>
+            </div>
+    
+            <div class="col-lg-2"  data-aos="zoom-in-up">
+              <div class="card card-products">
+                <a href=""><img src="img/socker/adidas/adidas 12.png" class="img-fluid" alt=""></a>
+                <div class="card-body">
+                  <div class="card-title">
+                    <h6 >Lorem ipsum dolor sit amet.</h6>
+                    <br>
+                    <p>Shoes</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-lg-2"  data-aos="zoom-in-up">
+                <div class="card card-products">
+                  <a href="Product/Adidas/Football/sport-adidas-2.html"><img src="img/sport/adidas/adidas2.png" class="img-fluid" alt=""></a>
+                  <div class="card-body">
+                    <div class="card-title">
+                      <h6 >ADIZERO 12.0  </h6>
+                      <br>
+                      <p>Shoes</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+    
+                <div class="col-lg-2"  data-aos="zoom-in-up">
+                  <div class="card card-products">
+                    <a href="Product/Adidas/Football/sport-adidas-5.html"><img src="img/sport/adidas/adidas5.png" class="img-fluid" alt=""></a>
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h6 >ADIZERO CLEATS</h6>
+                        <br>
+                        <p>Shoes</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+    
+                  <div class="col-lg-2">
+                    <div class="card card-products"  data-aos="zoom-in-up">
+                      <a href="Product/Adidas/Slider/adidas-sliders-1.html"><img src="img/Slider/adidas/adidas-slides-1.png" class="img-fluid" alt=""></a>
+                      <div class="card-body">
+                        <div class="card-title">
+                          <h6 >ADILETTE SLIDES</h6>
+                          <br>
+                          <p>Shoes</p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-2"  data-aos="zoom-in-up">
+                      <div class="card card-products">
+                        <a href="Product/Adidas/Slider/adidas-sliders-2.html"><img src="img/Slider/adidas/adidas-slides-2.png" class="img-fluid" alt=""></a>
+                        <div class="card-body">
+                          <div class="card-title"  data-aos="zoom-in-up">
+                            <h6 >ADIZERO 12.0 Slider</h6>
+                            <br>
+                            <p>Shoes</p>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+          
+          </div>
+        </div>
+         </section>   
+          
+      
+      
+      <!-- Puma Product -->
+      
+      
+      <section id="services" class="services section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header  pd-5 mt-5">
+                <h2 style="font-weight: bold; font-size: 40px;" data-aos="zoom-in-up">Puma Products</h2>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate veritatis iste quod itaque modi asperiores quis quasi voluptatem ipsum suscipit tenetur magni quia mollitia delectus amet, perspiciatis dolor unde ipsam?</p> -->
+              </div>
+             </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-2"  data-aos="zoom-in-up">
+              <div class="card card-products" >
+                <a href=""><img src="img/socker/puma/puma1.png" class="img-fluid" alt=""></a>
+                <div class="card-body">
+                  <div class="card-title">
+                    <h6 >Nike Pegasus 40 (USWNT)</h6>
+                    <br>
+                    <p>Shoes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-2"  data-aos="zoom-in-up">
+                <div class="card card-products">
+                  <a href=""><img src="img/socker/puma/puma2.png" class="img-fluid" alt=""></a>
+                  <div class="card-body">
+                    <div class="card-title">
+                      <h6 >Nike Pegasus 38</h6>
+                      <br>
+                      <p>Shoes</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-2"  data-aos="zoom-in-up">
+                <div class="card card-products">
+                  <a href=""><img src="img/sport/puma/puma1.png" class="img-fluid" alt=""></a>
+                  <div class="card-body">
+                    <div class="card-title">
+                      <h6 >Nike Alpha Menace Elite 3 "Travis Kelce</h6>
+                      <br>
+                      <p>Shoes</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="col-lg-2"  data-aos="zoom-in-up">
+              <div class="card card-products">
+                <a href=""><img src="img/sport/puma/puma2.png" class="img-fluid" alt=""></a>
+                <div class="card-body">
+                  <div class="card-title">
+                    <h6 >Nike Vapor Edge Pro 360 2</h6>
+                    <br>
+                    <p>Shoes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+                    <div class="col-lg-2"  data-aos="zoom-in-up">
+                      <div class="card card-products">
+                        <a href=""><img src="img/slider/puma/puma1.png" class="img-fluid" alt=""></a>
+                        <div class="card-body">
+                          <div class="card-title">
+                            <h6 >Nike Air Max 1</h6>
+                            <br>
+                            <p>Shoes</p>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="col-lg-2"  data-aos="zoom-in-up">
+                        <div class="card card-products">
+                          <a href=""><img src="img/slider/puma/puma2.png" class="img-fluid" alt=""></a>
+                          <div class="card-body">
+                            <div class="card-title">
+                              <h6 >Nike Offcourt Adjust</h6>
+                              <br>
+                              <p>Shoes</p>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+            
+          </div>
+        </div>
+           </section>   
+            
+    
+     
+          <div class="p-5 mb-lg-5 text-dark text-center mt-5" >
+            <h1 data-aos="fade-up" style="font-weight: bold;">LOGO OF PRODUCTS</h1>
+          </div>
+
+
+           <div class="carousel-inner" >
+            <div class="carousel-item active">
+              <img src="img/slide/pexels-cover-footer.png" style="object-fit: cover; " class=" w-100 " alt="...">
+              <div class="carousel-caption  ">
+                <div class="container">
+                  <div class="row mt-6">
+                    <div class="col-lg-5 mt-5">
+                      <h1  id="slider-footer"  data-aos="fade-up" data-aos-duration="3000" class="mt-5 card-title ">
+                        Logo all
+                      </h1>
+                      <p  data-aos="fade-up"data-aos-duration="3000">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                      </p>
+                      </div>
+                        <div class="col-lg-6 " >
+
+
+                          <div class="contain-slide ">
+                            <div class="slide-1 " style="background-image: url(img/icon/adidas\ \(1\).png);"></div>
+                            <div class="slide-1 " style="background-image: url(img/icon/nike\ \(2\).png);"></div>
+                            <div class="slide-1 " style="background-image: url(img/icon/puma\ \(1\).png);"></div>
+                            <div class="slide-next"><i class="bi bi-arrow-right"></i></i></div>
+                            <div class="slide-back"><i class="bi bi-arrow-left"></i></div>
+                            <!-- <div class="page">
+                                <ul> -->
+                                    <!-- <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li> -->
+                                <!-- </ul>
+                            </div> -->
+                        </div>
+
+                          <!-- <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                              <div class="numbertext">1 / 3</div>
+                              <img src="img/socker/adidas/adidas 11.png" >
+                              <div class="text">Caption Text</div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">2 / 3</div>
+                              <img src="img/socker/nike/nike1(2).jpg" >
+                              <div class="text">Caption Two</div>
+                            </div>
+                            
+                            <div class="mySlides fade">
+                              <div class="numbertext">3 / 3</div>
+                              <img src="img/socker/puma/puma9.png" >
+                              <div class="text">Caption Three</div>
+                            </div>
+                            
+                            </div>
+                            <br>
+                            
+                            <div style="text-align:center">
+                              <span class="dot"></span> 
+                              <span class="dot"></span> 
+                              <span class="dot"></span> 
+                            </div>-->
+                            
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+            <script>
+              $(document).ready(function(){
+    // $(".slide").eq(i).hide();
+    var numSlide = $(".slide-1").length;
+    $(".slide-1").hide();
+    var i=1;
+    $(".slide-1").eq(i).show();
+    $(".page").find("ul li").eq(i).addClass("action");
+    $(".slide-next").click(function(){
+        $(".slide-1").eq(i).hide();
+        $(".page").find("ul li").eq(i).removeClass("action");
+        i++;
+        if(numSlide<=i)
+        {
+            i=1;
+        }
+        $(".slide-1").eq(i).show();
+        $(".page").find("ul li").eq(i).addClass("action");
+    })
+    $(".slide-back").click(function(){
+        $(".slide-1").eq(i).hide();
+        $(".page").find("ul li").eq(i).removeClass("action");
+        if(i==0)
+        {
+            i=numSlide;
+        }
+        i--;
+        $(".slide-1").eq(i).show();
+        $(".page").find("ul li").eq(i).addClass("action");
+    });
+
+});
+              </script>
+
+
+
+
+
+<!-- footer -->
+<div class="p-5 mb-lg-5 bg-warning text-dark text-center " >
+  
+  <h1 data-aos="fade-up" style="font-weight: bold;">Discount 20% All Products</h1>
+
+
+</div>
+<div class="container mb-5" id="container">
+  <div class="row">
+    <div class="col-lg-3 mt-5 " data-aos="fade-up">
+      
+        <h3>PRODUCTS</h3>
+          
+       <a href="" >Shoes</a><br>
+       <a href="">Clothing</a><br>
+       <a href="">Accessories</a><br>
+        <a href="">Gift Cards</a> <br>
+        <a href="">New Arrivals</a>  <br>
+        <a href="">Best Sellers</a>  <br>
+        <a href="">Release Dates</a>  <br>
+        <a href="">Black Friday Deals</a>  <br>
+        <a href="">Sale</a><br>
+     
+    </div>
+    <div class="col-lg-3 mt-5 " data-aos="fade-up">
+      <h3>SPORTS</h3>
+          <a href="">Soccer</a> <br>
+          <a href="">Running</a>  <br>
+          <a href="">Basketball</a>   <br>
+          <a href="">Football</a>   <br>
+          <a href="">Outdoor</a>   <br>
+          <a href="">Golf</a>   <br>
+          <a href="">Baseball</a>   <br>
+          <a href="">Tennis</a>   <br>
+          <a href="">Skateboarding</a>   <br>
+           
+    </div>
+    <div class="col-lg-3 mt-5" data-aos="fade-up">
+      <h3>COLLECTIONS</h3>
+        <a href="">adicolor</a><br>
+        <a href="">Ultraboost</a><br>
+        <a href="">NMD</a><br>
+        <a href="">Forum</a><br>
+        <a href="">Superstar</a><br> 
+        <a href="">Running Shoes</a><br>
+        <a href="">adilette</a><br>
+        <a href="">Stan Smith</a><br>
+        <a href="">adizero</a><br>
+            
+    </div>
+    <div class="col-lg-3 mt-5 icon-footer" data-aos="fade-up">
+      <h3>FOLLOW <br> US</h3>
+      <a href="https://web.facebook.com/pheakdey.lim.9843/"><i class="bi bi-facebook"></i></a><br>
+      <a href=""><i class="bi bi-instagram"></i></a><br>
+      <a href=""><i class="bi bi-twitter"></i></a><br>
+      <a href=""><i class="bi bi-linkedin"></i></a><br>
+      <a href=""><i class="bi bi-tiktok"></i></a><br>
+      <a href=""><i class="bi bi-youtube"></i></a></i>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="p-5 bg-dark text-dark text-center mt-5" >
+
+  <p style=" color: white;"> Your Privacy Choices | Privacy Policy | Terms and Conditions</p>
+  <p style=" color: white; margin-bottom: -40px;" >&copy; Copyright by Shose 2023.</p>
+</div>
+
+</body>
+</html>
+

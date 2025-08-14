@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/boy-now.css">
+    <script src="/js/function.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+
+
+
+ <!-- header -->
+    
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html"><span class="text-warning">Shoe</span>S</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button"data-bs-toggle="dropdown" aria-expanded="false" href="#">Products</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="nike.html">Nike</a></li>
+                <li><a class="dropdown-item" href="adidas.html">Adidas</a></li>
+                <li><a class="dropdown-item" href="puma.html">Puma</a></li>
+              </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    
+    <div class="container w-75 mt-5 mb-5">
+        <div class="row border shadow">
+            <div class="col-10 mt-5 m-auto text-center" id="Buy">
+                <h1 >Buy Now</h1>
+                <form action="" class="mt-5">
+                    <div class="row ">
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="/img/socker/adidas/adidas 13.png" class="img-fluid card-img-top" alt="">
+                            </div>
+                           
+                        </div>
+                        <div class="col-lg-8 mt-5">
+                            
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quae.</h3> 
+                            <div class="card-body">
+                                <div class="text">
+                                    <h5 >100$</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                                     nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, natus.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 m-auto    mt-5">
+                            <label for="" class="form-label">Size</label>
+                            <input type="text" class="form-control w-25 m-auto border-warning" id="buy" placeholder="Size Shoes">
+                            <div class="col-lg-6 m-auto">
+                                <div class=" d-flex  mt-3" id="size">
+                                    <input type="button" class="p-3 border m-3" id="s" value="S">
+                                    <input type="button" class="p-3 border m-3" id="m" value="M">
+                                    <input type="button" class="p-3 border m-3" id="l" value="L">
+                                    <input type="button" class="p-3 border m-3" id="xl" value="XL">
+                                    <input type="button" class="p-3 border m-3 " id="xxl" value="XXL">
+                                </div>
+                            </div>
+
+                            <label for="" class="form-label mt-3">QTY</label>
+                            <input type="number" class="form-control w-25 m-auto border-warning" id="qty" placeholder="QTY Shoes">
+                           
+                            <label for="" class="form-label mt-3">Number Account</label>
+                            <input type="number" class="form-control w-50 m-auto border-warning" id="number-accounct" placeholder="Number Account">
+
+                            <input type="button" class="btn btn-outline-warning px-5 border-3 mt-4 mb-4" onclick="btn_buy()" value="Buy">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>

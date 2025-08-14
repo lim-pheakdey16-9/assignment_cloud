@@ -1,0 +1,52 @@
+
+
+
+#container a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0,0.7);
+    
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+#container a:hover{
+    text-decoration: underline;
+    color: black;
+    transform: scale(.9);
+    font-size: 18px;
+}
+
+
+
+
+.loader-61 {
+    width: 8px;
+    height: 40px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    background: currentColor;
+    color: #FFF;
+    -webkit-animation: animloader61m 0.3s 0.3s linear infinite alternate;
+    animation: animloader61m 0.3s 0.3s linear infinite alternate;
+}
+
+.loader-61::after,
+.loader-61::before {
+    content: "";
+    width: 8px;
+    height: 40px;
+    border-radius: 4px;
+    background: currentColor;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    -webkit-animation: animloader61 0.3s 0.45s linear infinite alternate;
+    animation: animloader61 0.3s 0.45s linear infinite alternate;
+}
+
+.loader-61::before {
+    left: -20px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}

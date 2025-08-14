@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .bg-nav
+{
+    background-color: rgb(157, 85, 85);
+    
+}
+.bg-nav img
+{
+    object-fit: cover;
+    margin-left: 100px;
+} */
+
+nav
+{
+    background-color: white;
+}
+
+nav .collapse .navbar-nav li
+{
+    padding: 0 20px;
+    color: white;
+}
+nav .collapse .navbar-nav li a
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.collapse .dropdown
+{
+    font-weight: bold;
+    
+}
+
+nav .navbar-collapse
+{
+    margin-right: 10%;
+}
+
+
+.container-fluid .navbar-brand
+{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.navbar-nav a
+    {
+        color: white;
+        text-align: center;
+    }
+.dropdown-menu
+    {
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+
+.bg-black
+{
+    background-color: black;
+    color: white;
+}
+.bg-writ
+{
+    background-color: white;
+    color: black;
+}
